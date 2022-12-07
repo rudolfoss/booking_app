@@ -7,27 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		075DDB912913D5EF00F5C9B4 /* CustomCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DDB902913D5EF00F5C9B4 /* CustomCollectionView.swift */; };
-		075DDB932913D62E00F5C9B4 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DDB922913D62E00F5C9B4 /* CustomCollectionViewCell.swift */; };
+		070231F1292759B900B01D98 /* RecruitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070231EF292759B900B01D98 /* RecruitTableViewCell.swift */; };
+		070231F2292759B900B01D98 /* RecruitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070231F0292759B900B01D98 /* RecruitTableViewCell.xib */; };
+		070231F52928D73400B01D98 /* SoccerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070231F32928D73400B01D98 /* SoccerTableViewCell.swift */; };
+		070231F62928D73400B01D98 /* SoccerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070231F42928D73400B01D98 /* SoccerTableViewCell.xib */; };
+		070231F92928FAC400B01D98 /* TennisTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070231F72928FAC400B01D98 /* TennisTableViewCell.swift */; };
+		070231FA2928FAC400B01D98 /* TennisTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070231F82928FAC400B01D98 /* TennisTableViewCell.xib */; };
+		074805E929153241001269A8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074805E829153241001269A8 /* DetailViewController.swift */; };
+		074A7D1429383DB3006FCE77 /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A7D1329383DB3006FCE77 /* InfoDetailViewController.swift */; };
+		0766651C291DE20F0098736C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0766651B291DE20F0098736C /* SignUpViewController.swift */; };
 		0770C38D2910F3F400E9FA94 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770C38C2910F3F400E9FA94 /* SelectViewController.swift */; };
 		0770C38F2910F45700E9FA94 /* MyReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770C38E2910F45700E9FA94 /* MyReservationViewController.swift */; };
-		0770C3912910F49800E9FA94 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770C3902910F49800E9FA94 /* ReservationViewController.swift */; };
-		0770C3932910F53600E9FA94 /* PeopleSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770C3922910F53600E9FA94 /* PeopleSearchViewController.swift */; };
+		0770C3912910F49800E9FA94 /* RecruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770C3902910F49800E9FA94 /* RecruitViewController.swift */; };
+		0796A89B2938812000A4859E /* ReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796A8992938812000A4859E /* ReservationTableViewCell.swift */; };
+		0796A89C2938812000A4859E /* ReservationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0796A89A2938812000A4859E /* ReservationTableViewCell.xib */; };
+		079BCC312920DA7E005D1453 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BCC302920DA7E005D1453 /* WeatherManager.swift */; };
+		079BCC332920DAA0005D1453 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BCC322920DAA0005D1453 /* WeatherData.swift */; };
+		079BCC352920DABC005D1453 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BCC342920DABC005D1453 /* WeatherModel.swift */; };
+		079BCC37292106AA005D1453 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BCC36292106AA005D1453 /* FirstViewController.swift */; };
+		07A7383D2939DA1C00F6E6B8 /* SendInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7383C2939DA1C00F6E6B8 /* SendInfo.swift */; };
+		07A990212918F0420058CCAA /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A990202918F0420058CCAA /* ReservationViewController.swift */; };
+		07AB72BC291DA78900B8C3EF /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AB72BB291DA78900B8C3EF /* InformationViewController.swift */; };
+		07B6B6BA292130F400A9E345 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B6B6B9292130F400A9E345 /* WriteViewController.swift */; };
 		07CA3F0A28F0038000251231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA3F0928F0038000251231 /* AppDelegate.swift */; };
 		07CA3F0C28F0038000251231 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA3F0B28F0038000251231 /* SceneDelegate.swift */; };
 		07CA3F0E28F0038000251231 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA3F0D28F0038000251231 /* LoginViewController.swift */; };
 		07CA3F1128F0038000251231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CA3F0F28F0038000251231 /* Main.storyboard */; };
 		07CA3F1328F0038400251231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CA3F1228F0038400251231 /* Assets.xcassets */; };
 		07CA3F1628F0038400251231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CA3F1428F0038400251231 /* LaunchScreen.storyboard */; };
+		07EF1278291B7981002856AD /* TennisCalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EF1277291B7981002856AD /* TennisCalViewController.swift */; };
+		07EF127C291BE2A6002856AD /* SoccerCalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EF127B291BE2A6002856AD /* SoccerCalViewController.swift */; };
+		07FD5BB229193CFB002C1610 /* TennisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD5BB129193CFB002C1610 /* TennisViewController.swift */; };
+		07FD5BB429193D05002C1610 /* SoccerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD5BB329193D05002C1610 /* SoccerViewController.swift */; };
+		6D4C5D48CD680FB2E3828D18 /* Pods_swe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C528E02D41D57481C0F14EDE /* Pods_swe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		075DDB902913D5EF00F5C9B4 /* CustomCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionView.swift; sourceTree = "<group>"; };
-		075DDB922913D62E00F5C9B4 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		070231EF292759B900B01D98 /* RecruitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitTableViewCell.swift; sourceTree = "<group>"; };
+		070231F0292759B900B01D98 /* RecruitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecruitTableViewCell.xib; sourceTree = "<group>"; };
+		070231F32928D73400B01D98 /* SoccerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerTableViewCell.swift; sourceTree = "<group>"; };
+		070231F42928D73400B01D98 /* SoccerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoccerTableViewCell.xib; sourceTree = "<group>"; };
+		070231F72928FAC400B01D98 /* TennisTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisTableViewCell.swift; sourceTree = "<group>"; };
+		070231F82928FAC400B01D98 /* TennisTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TennisTableViewCell.xib; sourceTree = "<group>"; };
+		074805E829153241001269A8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		074A7D1329383DB3006FCE77 /* InfoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
+		0766651B291DE20F0098736C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0770C38C2910F3F400E9FA94 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
 		0770C38E2910F45700E9FA94 /* MyReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReservationViewController.swift; sourceTree = "<group>"; };
-		0770C3902910F49800E9FA94 /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
-		0770C3922910F53600E9FA94 /* PeopleSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleSearchViewController.swift; sourceTree = "<group>"; };
+		0770C3902910F49800E9FA94 /* RecruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitViewController.swift; sourceTree = "<group>"; };
+		0796A8992938812000A4859E /* ReservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationTableViewCell.swift; sourceTree = "<group>"; };
+		0796A89A2938812000A4859E /* ReservationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReservationTableViewCell.xib; sourceTree = "<group>"; };
+		079BCC302920DA7E005D1453 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		079BCC322920DAA0005D1453 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		079BCC342920DABC005D1453 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		079BCC36292106AA005D1453 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		07A7383C2939DA1C00F6E6B8 /* SendInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendInfo.swift; sourceTree = "<group>"; };
+		07A990202918F0420058CCAA /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		07AB72BB291DA78900B8C3EF /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		07B6B6B9292130F400A9E345 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
 		07CA3F0628F0038000251231 /* swe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CA3F0928F0038000251231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07CA3F0B28F0038000251231 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +73,13 @@
 		07CA3F1228F0038400251231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07CA3F1528F0038400251231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07CA3F1728F0038400251231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07EF1277291B7981002856AD /* TennisCalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisCalViewController.swift; sourceTree = "<group>"; };
+		07EF127B291BE2A6002856AD /* SoccerCalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerCalViewController.swift; sourceTree = "<group>"; };
+		07FD5BB129193CFB002C1610 /* TennisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisViewController.swift; sourceTree = "<group>"; };
+		07FD5BB329193D05002C1610 /* SoccerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerViewController.swift; sourceTree = "<group>"; };
+		C1B3B48EF935066036F253FE /* Pods-swe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swe.debug.xcconfig"; path = "Target Support Files/Pods-swe/Pods-swe.debug.xcconfig"; sourceTree = "<group>"; };
+		C40ED878E8767CDE1C22187F /* Pods-swe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swe.release.xcconfig"; path = "Target Support Files/Pods-swe/Pods-swe.release.xcconfig"; sourceTree = "<group>"; };
+		C528E02D41D57481C0F14EDE /* Pods_swe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +87,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4C5D48CD680FB2E3828D18 /* Pods_swe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07A735D829324DCC004ED00E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		07CA3EFD28F0038000251231 = {
 			isa = PBXGroup;
 			children = (
+				07A735D829324DCC004ED00E /* Network */,
 				07CA3F0828F0038000251231 /* swe */,
 				07CA3F0728F0038000251231 /* Products */,
+				942DE95337BBE02876C6C445 /* Pods */,
+				CD066806047A189A3EDDE123 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,8 +125,9 @@
 			children = (
 				07CA3F0928F0038000251231 /* AppDelegate.swift */,
 				07CA3F0B28F0038000251231 /* SceneDelegate.swift */,
-				07E166CD290E00ED00BA85C2 /* Controller */,
-				07CA3F0F28F0038000251231 /* Main.storyboard */,
+				07EF127A291BD2FA002856AD /* Model */,
+				07EF1279291BD2AF002856AD /* View */,
+				07E166CD290E00ED00BA85C2 /* Controllers */,
 				07CA3F1228F0038400251231 /* Assets.xcassets */,
 				07CA3F1428F0038400251231 /* LaunchScreen.storyboard */,
 				07CA3F1728F0038400251231 /* Info.plist */,
@@ -79,18 +135,70 @@
 			path = swe;
 			sourceTree = "<group>";
 		};
-		07E166CD290E00ED00BA85C2 /* Controller */ = {
+		07E166CD290E00ED00BA85C2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				074A7D1329383DB3006FCE77 /* InfoDetailViewController.swift */,
+				0766651B291DE20F0098736C /* SignUpViewController.swift */,
+				07AB72BB291DA78900B8C3EF /* InformationViewController.swift */,
 				07CA3F0D28F0038000251231 /* LoginViewController.swift */,
 				0770C38C2910F3F400E9FA94 /* SelectViewController.swift */,
 				0770C38E2910F45700E9FA94 /* MyReservationViewController.swift */,
-				0770C3902910F49800E9FA94 /* ReservationViewController.swift */,
-				075DDB902913D5EF00F5C9B4 /* CustomCollectionView.swift */,
-				0770C3922910F53600E9FA94 /* PeopleSearchViewController.swift */,
-				075DDB922913D62E00F5C9B4 /* CustomCollectionViewCell.swift */,
+				0770C3902910F49800E9FA94 /* RecruitViewController.swift */,
+				074805E829153241001269A8 /* DetailViewController.swift */,
+				07A990202918F0420058CCAA /* ReservationViewController.swift */,
+				07FD5BB129193CFB002C1610 /* TennisViewController.swift */,
+				07FD5BB329193D05002C1610 /* SoccerViewController.swift */,
+				07EF1277291B7981002856AD /* TennisCalViewController.swift */,
+				07EF127B291BE2A6002856AD /* SoccerCalViewController.swift */,
+				079BCC36292106AA005D1453 /* FirstViewController.swift */,
+				07B6B6B9292130F400A9E345 /* WriteViewController.swift */,
 			);
-			path = Controller;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		07EF1279291BD2AF002856AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07CA3F0F28F0038000251231 /* Main.storyboard */,
+				070231F72928FAC400B01D98 /* TennisTableViewCell.swift */,
+				070231F82928FAC400B01D98 /* TennisTableViewCell.xib */,
+				070231EF292759B900B01D98 /* RecruitTableViewCell.swift */,
+				0796A8992938812000A4859E /* ReservationTableViewCell.swift */,
+				0796A89A2938812000A4859E /* ReservationTableViewCell.xib */,
+				070231F32928D73400B01D98 /* SoccerTableViewCell.swift */,
+				070231F42928D73400B01D98 /* SoccerTableViewCell.xib */,
+				070231F0292759B900B01D98 /* RecruitTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07EF127A291BD2FA002856AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				079BCC302920DA7E005D1453 /* WeatherManager.swift */,
+				079BCC322920DAA0005D1453 /* WeatherData.swift */,
+				079BCC342920DABC005D1453 /* WeatherModel.swift */,
+				07A7383C2939DA1C00F6E6B8 /* SendInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		942DE95337BBE02876C6C445 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1B3B48EF935066036F253FE /* Pods-swe.debug.xcconfig */,
+				C40ED878E8767CDE1C22187F /* Pods-swe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD066806047A189A3EDDE123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C528E02D41D57481C0F14EDE /* Pods_swe.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07CA3F1A28F0038400251231 /* Build configuration list for PBXNativeTarget "swe" */;
 			buildPhases = (
+				2505DAE5E9A54471A96E59D1 /* [CP] Check Pods Manifest.lock */,
 				07CA3F0228F0038000251231 /* Sources */,
 				07CA3F0328F0038000251231 /* Frameworks */,
 				07CA3F0428F0038000251231 /* Resources */,
+				9D34BD641B17CB761D31E60F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,26 +263,88 @@
 			files = (
 				07CA3F1628F0038400251231 /* LaunchScreen.storyboard in Resources */,
 				07CA3F1328F0038400251231 /* Assets.xcassets in Resources */,
+				070231FA2928FAC400B01D98 /* TennisTableViewCell.xib in Resources */,
+				070231F62928D73400B01D98 /* SoccerTableViewCell.xib in Resources */,
+				070231F2292759B900B01D98 /* RecruitTableViewCell.xib in Resources */,
+				0796A89C2938812000A4859E /* ReservationTableViewCell.xib in Resources */,
 				07CA3F1128F0038000251231 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2505DAE5E9A54471A96E59D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D34BD641B17CB761D31E60F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swe/Pods-swe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swe/Pods-swe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swe/Pods-swe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07CA3F0228F0038000251231 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07EF1278291B7981002856AD /* TennisCalViewController.swift in Sources */,
+				074805E929153241001269A8 /* DetailViewController.swift in Sources */,
 				0770C38D2910F3F400E9FA94 /* SelectViewController.swift in Sources */,
-				075DDB932913D62E00F5C9B4 /* CustomCollectionViewCell.swift in Sources */,
+				07A990212918F0420058CCAA /* ReservationViewController.swift in Sources */,
+				07FD5BB229193CFB002C1610 /* TennisViewController.swift in Sources */,
+				0766651C291DE20F0098736C /* SignUpViewController.swift in Sources */,
+				070231F92928FAC400B01D98 /* TennisTableViewCell.swift in Sources */,
+				074A7D1429383DB3006FCE77 /* InfoDetailViewController.swift in Sources */,
+				07B6B6BA292130F400A9E345 /* WriteViewController.swift in Sources */,
+				070231F1292759B900B01D98 /* RecruitTableViewCell.swift in Sources */,
+				07A7383D2939DA1C00F6E6B8 /* SendInfo.swift in Sources */,
+				079BCC332920DAA0005D1453 /* WeatherData.swift in Sources */,
 				07CA3F0E28F0038000251231 /* LoginViewController.swift in Sources */,
-				0770C3932910F53600E9FA94 /* PeopleSearchViewController.swift in Sources */,
+				07FD5BB429193D05002C1610 /* SoccerViewController.swift in Sources */,
+				07EF127C291BE2A6002856AD /* SoccerCalViewController.swift in Sources */,
+				0796A89B2938812000A4859E /* ReservationTableViewCell.swift in Sources */,
+				079BCC312920DA7E005D1453 /* WeatherManager.swift in Sources */,
 				07CA3F0A28F0038000251231 /* AppDelegate.swift in Sources */,
 				0770C38F2910F45700E9FA94 /* MyReservationViewController.swift in Sources */,
+				070231F52928D73400B01D98 /* SoccerTableViewCell.swift in Sources */,
+				079BCC37292106AA005D1453 /* FirstViewController.swift in Sources */,
 				07CA3F0C28F0038000251231 /* SceneDelegate.swift in Sources */,
-				0770C3912910F49800E9FA94 /* ReservationViewController.swift in Sources */,
-				075DDB912913D5EF00F5C9B4 /* CustomCollectionView.swift in Sources */,
+				0770C3912910F49800E9FA94 /* RecruitViewController.swift in Sources */,
+				079BCC352920DABC005D1453 /* WeatherModel.swift in Sources */,
+				07AB72BC291DA78900B8C3EF /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +486,7 @@
 		};
 		07CA3F1B28F0038400251231 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B3B48EF935066036F253FE /* Pods-swe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,6 +495,7 @@
 				DEVELOPMENT_TEAM = 2V279GTPCN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = swe/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치 권한 요청";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -342,6 +516,7 @@
 		};
 		07CA3F1C28F0038400251231 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C40ED878E8767CDE1C22187F /* Pods-swe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -350,6 +525,7 @@
 				DEVELOPMENT_TEAM = 2V279GTPCN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = swe/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치 권한 요청";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
