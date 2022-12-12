@@ -19,8 +19,8 @@ class MyReservationViewController: UIViewController, UITableViewDataSource, UITa
     var list: List?
 
     var lists = [
-        List(ground: "소 운동장", date: "11/14", time: "13:00 ~ 15:00"),
-        List(ground: "1 코트", date: "11/15", time: "14:00 ~ 15:00")
+        List(ground: "소 운동장", date: "12/16", time: "17:00 ~ 19:00"),
+        List(ground: "1 코트", date: "12/16", time: "16:00 ~ 17:00")
     ]
     
     @IBOutlet weak var reservationTableView: UITableView!

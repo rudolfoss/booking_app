@@ -26,10 +26,10 @@ class LoginViewController: UIViewController {
         }else if password != UserDefaults.standard.string(forKey: name) {
             print("비밀번호가 알맞지 않습니다.")
             
-        }/*else if password == "" || name == "" {
+        }else if password == "" || name == "" {
             print("정보를 다시 입력 하세요.")
             
-        }*/else {
+        }else {
             self.performSegue(withIdentifier: "LoginToSelect", sender: self)
             print("로그인 성공!")
         }

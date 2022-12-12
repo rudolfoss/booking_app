@@ -27,12 +27,12 @@ class TennisCalViewController: UIViewController, UITableViewDataSource, UITableV
         Infoa(title: "1 코트", time: "16:00 ~ 17:00", color: .green),
 
         Infoa(title: "2 코트", time: "14:00 ~ 15:00", color: .red),
-        Infoa(title: "2 코트", time: "15:00 ~ 16:00", color: .green),
+        Infoa(title: "2 코트", time: "15:00 ~ 16:00", color: .red),
         Infoa(title: "2 코트", time: "16:00 ~ 17:00", color: .green),
 
-        Infoa(title: "3 코트", time: "14:00 ~ 15:00", color: .green),
+        Infoa(title: "3 코트", time: "14:00 ~ 15:00", color: .red),
         Infoa(title: "3 코트", time: "15:00 ~ 16:00", color: .red),
-        Infoa(title: "3 코트", time: "16:00 ~ 17:00", color: .green)
+        Infoa(title: "3 코트", time: "16:00 ~ 17:00", color: .red)
 
     ]
     

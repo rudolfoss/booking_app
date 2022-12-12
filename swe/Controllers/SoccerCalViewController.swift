@@ -28,7 +28,7 @@ class SoccerCalViewController: UIViewController, UITableViewDataSource, UITableV
         Info(title: "소 운동장", time: "17:00 ~ 19:00", color: .green),
 
         Info(title: "대 운동장", time: "13:00 ~ 15:00", color: .red),
-        Info(title: "대 운동장", time: "15:00 ~ 17:00", color: .green),
+        Info(title: "대 운동장", time: "15:00 ~ 17:00", color: .red),
         Info(title: "대 운동장", time: "17:00 ~ 19:00", color: .red)
     ]
     

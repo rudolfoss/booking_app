@@ -29,10 +29,13 @@ class RecruitViewController: UIViewController, UITableViewDataSource, UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
+        apend()
+    }
+ 
+    func apend(){
         let appDelegate = UIApplication.shared.delegate as? AppDelegate
         
-     /*   boards.append(Board(title: appDelegate?.sendinfo.title ?? "", date: appDelegate?.sendinfo.date ?? "", time: "",people: appDelegate?.sendinfo.people ?? "", post:appDelegate?.sendinfo.post ?? "" ))
-      */
+        boards.append(Board(title: appDelegate?.sendinfo.title ?? "", date: appDelegate?.sendinfo.date ?? "", time: "",people: appDelegate?.sendinfo.people ?? "", post:appDelegate?.sendinfo.post ?? "" ))
     }
     
     func setupTableView(){
